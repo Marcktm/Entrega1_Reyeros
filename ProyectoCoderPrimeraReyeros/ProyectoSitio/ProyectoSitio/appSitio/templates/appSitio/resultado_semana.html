@@ -1,0 +1,10 @@
+{% extends 'appSitio/base.html' %}
+
+
+{% block contenido %}
+    <ul>
+    {% for s in Semanas %}
+        <p> En la semana número {{s.semana}} :</p>
+    {% endfor %}
+    </ul>
+{% endblock %}

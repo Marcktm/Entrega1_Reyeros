@@ -1,0 +1,24 @@
+# Proyecto Coder
+
+Este proyecto ES PARA LA PRIMERA ENTREGA de la comision 44470
+
+--Se debe entregar:
+--Link de GitHub con el proyecto totalmente subido a la plataforma.
+Proyecto Web Django con patrón MVT que incluya:
+---1)Herencia de HTML.
+---2)Por lo menos 3 clases en models.
+---3)Un formulario para insertar datos a todas las clases de tu models.
+---4)Un formulario para buscar algo en la BD
+
+1)Se puede ver en cada fomulario que se usa la herencia
+2)En models.py se pueden ver los 3 modelos
+3)Para todos los modelos hay un formulario para ingresar datos
+    *por EJ:
+    /bebe/crear/
+
+4)Se puede buscar la cantidad de veces que se repite el numero de la clase "Semana" que esta en su base de datos de la siguiente manera:
+    semana/buscar/
+    eso nos envia a
+    semana/buscar/resultado
+
+LA IDEA DE LA APLICACION WEB ES A POSTERIOR BUSCAR EN CADA SEMANA DETALLES ESPECIFICOS Y QUE CADA MADRE TENGA SU USUARIO, FALTA OPTIMIZAR LOS MODELOS DE MEJOR MANERA PARA MANEJAR DE OTRA MANERA LOS DATOS QUE ES LO QUE VOY A ESTAR HACIENDO, SI ES QUE SE SIGUE CON LA MISMA TEMATICA PARA EL PROYECTO FINAL.
